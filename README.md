@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-Welcome to the Apna Bank ATM Simulation – a classic command-line banking experience built with C++. This project serves as an excellent demonstration of fundamental programming concepts in a practical, easy-to-understand application.
+Welcome to the Apna Bank ATM Simulation – menu-driven ATM simulation built using C++. This project serves as an excellent demonstration of fundamental programming concepts in a practical, easy-to-understand application.
 
 This simple yet functional ATM interface allows users to perform essential banking transactions like checking their balance, depositing funds, and withdrawing money, all protected by a secure PIN system.
 
@@ -17,9 +17,17 @@ This simple yet functional ATM interface allows users to perform essential banki
 * **Interactive Menu**: A clean, menu-driven interface for a smooth user experience.
 * **Cross-Platform**: Written in standard C++, it can be compiled and run on any major operating system.
 
+## ▶️ Quick Run
+
+```sh
+g++ bank.cpp -o atm
+./atm
+```
+
+
 ## 📸 Demo
 
-Here is a quick walkthrough of the application in action:
+Here is a quick walkthrough of the simulation in action:
 Welcome to Apna Bank.
 
 Please enter your pin or type 0000 to exit: 1327
@@ -98,11 +106,11 @@ You need a C++ compiler installed on your machine. The most common is **g++**, w
 
 1.  **Clone the repository (replace with your actual repo URL):**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name](https://github.com/sharma-bhupesh/Banking-ATM-Software.git)
+    git clone https://github.com/sharma-bhupesh/atm-simulation-cpp.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd your-repo-name
+    cd atm-simulation-cpp
     ```
 3.  **Compile the code (assuming the file is named `bank.cpp`):**
     ```sh
